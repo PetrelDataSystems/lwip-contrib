@@ -65,7 +65,7 @@
 #endif
 
 #if defined(LWIP_UNIX_ANDROID) && defined(FD_SET)
-typedef __kernel_fd_set fd_set;
+//typedef __kernel_fd_set fd_set;
 #endif
 
 #if defined(LWIP_UNIX_MACH)
